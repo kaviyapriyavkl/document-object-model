@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery</title>
+</head>
+<body>
+    <style>
+body{
+    text-align: center;
+    background-color:whitesmoke;
+   
+    
+}
+img{
+    border-radius:10px; 
+    box-shadow: 3px 3px 30px grey;
+}
+.box img{
+    border-radius: 5px;
+    display: block;
+    width: 100%;
+}
+
+.container{
+    width:100%;
+    padding: 1px;
+   
+    display:flex;
+    flex-direction: row;
+    justify-content:center;
+}
+.box{
+    width:250px;
+   margin:5px;
+    box-shadow: 0 0 20px 2px rgbp(0,0,0,.1);
+    transition: 1s;
+    box-shadow: 2px 2px 5px white;
+}
+.box:hover{
+    transform:scale(1.3);
+    z-index:2;
+    transform: scale(1.1) rotate(1deg);
+}
+
+    </style>
+    <div >
+        <img id="image"src="img.jpeg" width="900px"height="500px">
+    </div><div class="container">
+        <div class="box" ><img onclick="change1()"src="img.jpeg" width="130" height="100"alt=""></div>
+        <div class="box" ><img onclick="change2()"src="2.jpg" width="130" height="100"alt=""></div>
+        <div class="box" ><img onclick="change3()"src="3.jpg" width="130" height="100"alt=""></div>
+        <div class="box"><img onclick="change4()"src="4.jpg" width="130" height="100"alt=""></div>
+        <div class="box" ><img onclick="change5()"src="5.jpg" width="130" height="100"alt=""></div>
+        <div class="box" ><img onclick="change6()"src="6.jpg" width="130" height="100"alt=""></div>
+        <div class="box" ><img onclick="change7()"src="7.jpg" width="130" height="100"alt=""></div>
+        <div class="box" ><img onclick="change8()"src="8.jpg" width="130" height="100"alt=""></div>
+        <div class="box"><img onclick="change9()"src="9.jpg" width="130" height="100"alt=""></div>
+    </div>
+        <script>
+            function change1()
+            {
+                document.getElementById('image').src="img.jpeg";
+        
+            }
+            function change2()
+            {
+                document.getElementById('image').src="2.jpg";
+        
+            }
+            function change3()
+            {
+                document.getElementById('image').src="3.jpg";
+        
+            }
+            function change4()
+            {
+                document.getElementById('image').src="4.jpg";
+        
+            }
+            function change5()
+            {
+                document.getElementById('image').src="5.jpg";
+        
+            }
+            function change6()
+            {
+                document.getElementById('image').src="6.jpg";
+        
+            }
+            function change7()
+            {
+                document.getElementById('image').src="7.jpg";
+        
+            }
+            function change8()
+            {
+                document.getElementById('image').src="8.jpg";
+        
+            }
+            function change9()
+            {
+                document.getElementById('image').src="9.jpg";
+        
+            }
+
+        </script>
+    
+</body>
+</html>

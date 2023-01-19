@@ -1,0 +1,82 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    color:white; 
+    background: 
+    url(https://wallpaperaccess.com/full/4328017.jpg)no-repeat;
+    background-repeat:no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+
+.box{
+width: 900px;
+float:right;
+border:1px solid black;
+}
+.box ul li{
+    width:120px;
+    float:left;
+    margin:10px auto;
+    text-align: center;
+}
+.box ul li a{
+     text-decoration:none;
+     color:darkgray;
+}
+.box ul li:hover{ background-color:grey; }
+.box ul li a:hover{ background-color:grey; }
+.wd{
+    width:200px;
+    height:539px;
+    background-color:grey;
+    opacity:0.8;
+    padding:55px;
+}
+.inside{
+    
+    background-color:grey;
+    opacity:0.8;
+    padding:55px;
+}
+.inside h2{
+    text-align:center;
+    text-transform:uppercase ;
+    font-weight: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.inside li{
+    text-align: justify;
+    color:black;
+    font-weight: normal;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.wd h1{
+    text-align:center;
+    text-transform:uppercase ;
+    font-weight: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.wd p{
+    text-align: justify;
+    color:black;
+    font-weight: normal;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.wrapper{
+    position:absolute;
+    top: 20%;
+    
+    left:10;
+    width: 94%;
+    height: 110%;
+    display: flex;
+    align-items: center;
+    justify-content:right;
+}
+.inside{
+    width:20%;
+    height:50%;
+    background: grey;
+}
